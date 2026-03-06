@@ -1,7 +1,6 @@
 N, X = map(int, input().split())
 
 mesin = []
-
 def baca(i):
     if i < N:
         t1, t2 = map(int, input().split())
@@ -33,7 +32,6 @@ def cari(i, p, ssr):
             return b
 
 hasil = cari(0, 0, 0)
-
 if hasil > N:
     print(-1)
 else:
