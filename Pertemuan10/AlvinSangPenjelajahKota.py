@@ -24,21 +24,21 @@ for i in range(N):
     heuristik[i + 1] = h[i]
 
 def GreedyBFS():
-    OpenList = [(heuristik[S], S, 0, [S], [S])]
+    OpenList = [(heuristik[S], S, 0, [S])]
     inOpen   = {S}
-    visited   = set()
-    
+    expanded = []                             
+
     while OpenList:
-        h_now, node, cost, rute, expanded = heapq.heappop(OpenList)
+        h_now, node, cost, rute = heapq.heappop(OpenList)
+        expanded.append(node)                
         if node == G:
             return rute, cost, expanded
-        visited.add(node)
 
         for tetangga, bobot in graph[node]:
-            if tetangga not in visited and tetangga not in inOpen:
-                heapq.heappush(OpenList, (heuristik[tetangga], tetangga, cost + bobot, rute + [tetangga], expanded + [tetangga]))
+            if tetangga not in inOpen:         
+                heapq.heappush(OpenList, (heuristik[tetangga], tetangga, cost + bobot, rute + [tetangga]))
                 inOpen.add(tetangga)
-                
+
     return None, 0, []
 
 rute, cost, expanded = GreedyBFS()
