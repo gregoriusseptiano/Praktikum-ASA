@@ -1,0 +1,21 @@
+# Nama : Gregorius Septiano Ariadi
+# NIM : 24060124120026
+# Lab : E1
+
+3 Algoritma yang Saya Suka:
+
+1. A* (A Star)
+  Saya suka algoritma A* karena menurut saya algoritma ini cukup pintar dalam mencari jalur tercepat. A* tidak hanya melihat jarak yang sudah ditempuh, tapi juga memperkirakan jarak ke tujuan, jadi pencariannya lebih efisien. Algoritma ini sering dipakai di pencarian rute.
+2. BFS (Breadth First Search)
+  BFS saya suka karena konsepnya gampang dipahami. Algoritma ini mencari node satu per satu berdasarkan level terdekat dulu, jadi cocok untuk mencari jalur paling pendek pada graph yang sederhana. Selain itu, visualisasi prosesnya juga lebih mudah dimengerti.
+3. DFS (Depth First Search)
+  DFS menarik karena cara kerjanya menelusuri satu jalur sampai dalam terlebih dahulu sebelum pindah ke jalur lain. Menurut saya algoritma ini seru dipelajari karena terasa seperti eksplorasi labirin dan implementasinya juga cukup sederhana menggunakan rekursif.
+
+3 Algoritma yang Tidak Saya Suka:
+1. Brute Force
+  Saya kurang suka brute force karena algoritma ini mencoba semua kemungkinan yang ada. Kalau datanya sedikit mungkin masih aman, tapi kalau datanya besar prosesnya jadi sangat lama dan tidak efisien.
+2. Backtracking
+  Backtracking menurut saya agak membingungkan karena prosesnya maju lalu mundur terus sampai menemukan solusi yang cocok. Saat implementasi juga lumayan rawan error kalau tidak teliti.
+3. Decrease and Conquer
+  Saya kurang suka metode decrease and conquer karena kadang alurnya sulit dipahami dibanding divide and conquer. Selain itu, beberapa algoritma dengan metode ini kadang bikin bosan dan kurang menarik saat dipelajari.
+
